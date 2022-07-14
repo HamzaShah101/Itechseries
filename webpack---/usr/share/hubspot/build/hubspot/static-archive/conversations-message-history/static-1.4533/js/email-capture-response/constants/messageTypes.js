@@ -1,0 +1,3 @@
+'use es6';
+
+export const EMAIL_CAPTURE_RESPONSE = 'EMAIL_CAPTURE_RESPONSE';

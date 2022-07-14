@@ -1,0 +1,3 @@
+'use es6';
+
+export const CHANNEL_CHANGE_RECEIVED = 'CHANNEL_CHANGE_RECEIVED';

@@ -1,0 +1,3 @@
+'use es6';
+
+export const TYPICAL_RESPONSE_TIME = 'TYPICAL_RESPONSE_TIME';

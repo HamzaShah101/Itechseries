@@ -1,0 +1,3 @@
+'use es6';
+
+export const EMAIL_CAPTURE_PROMPT = 'EMAIL_CAPTURE_PROMPT';

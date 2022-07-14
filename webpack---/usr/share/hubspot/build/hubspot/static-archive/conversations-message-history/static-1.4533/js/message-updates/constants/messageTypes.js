@@ -1,0 +1,4 @@
+'use es6';
+
+export const MESSAGES_UPDATED = 'MESSAGES_UPDATED';
+export const MESSAGES_HARD_DELETED = 'MESSAGES_HARD_DELETED';

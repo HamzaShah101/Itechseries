@@ -1,0 +1,12 @@
+module.exports = {
+  "/": {
+    "success": {
+      "default": [
+        "VISITOR_SUCCESS"
+      ]
+    },
+    "error": [
+      "VISITOR_ERROR"
+    ]
+  }
+};

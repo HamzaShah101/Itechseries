@@ -1,0 +1,3 @@
+'use es6';
+
+export const CHAT_TRANSCRIPT_SENT = 'CHAT_TRANSCRIPT_SENT';

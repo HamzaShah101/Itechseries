@@ -1,0 +1,348 @@
+module.exports = {
+  "pageviewFiftyThree": {
+    "name": "pageviewfiftythree",
+    "class": "view",
+    "properties": {
+      "screen": "string",
+      "subscreen": "string",
+      "action": "string",
+      "isIncludedInPageViewSample": "boolean",
+      "privateLoad": "boolean",
+      "chatflowId": {
+        "type": "number",
+        "isOptional": true
+      },
+      "path": {
+        "type": "string",
+        "isOptional": true
+      },
+      "promptEnabled": {
+        "type": "string",
+        "isOptional": true
+      },
+      "botEnabled": {
+        "type": "string",
+        "isOptional": true
+      },
+      "state": {
+        "type": "string",
+        "isOptional": true
+      }
+    },
+    "namespace": "conversations-visitor-ui"
+  },
+  "pageview": {
+    "name": "pageview",
+    "class": "view",
+    "properties": {
+      "screen": "string",
+      "subscreen": "string",
+      "action": "string",
+      "pageViewSamplePercent": "number",
+      "isIncludedInPageViewSample": "boolean",
+      "privateLoad": "boolean",
+      "chatflowId": {
+        "type": "number",
+        "isOptional": true
+      },
+      "path": {
+        "type": "string",
+        "isOptional": true
+      },
+      "promptEnabled": {
+        "type": "string",
+        "isOptional": true
+      },
+      "botEnabled": {
+        "type": "string",
+        "isOptional": true
+      },
+      "state": {
+        "type": "string",
+        "isOptional": true
+      }
+    },
+    "namespace": "conversations-visitor-ui"
+  },
+  "start-conversation": {
+    "name": "start-conversation",
+    "class": "interaction",
+    "properties": {
+      "threadId": "number",
+      "isIncludedInPageViewSample": "boolean",
+      "privateLoad": "boolean",
+      "chatflowId": {
+        "type": "number",
+        "isOptional": true
+      },
+      "path": {
+        "type": "string",
+        "isOptional": true
+      },
+      "promptEnabled": {
+        "type": "string",
+        "isOptional": true
+      },
+      "botEnabled": {
+        "type": "string",
+        "isOptional": true
+      },
+      "state": {
+        "type": "string",
+        "isOptional": true
+      }
+    },
+    "namespace": "conversations-visitor-ui"
+  },
+  "send-message": {
+    "name": "send-message",
+    "class": "interaction",
+    "properties": {
+      "threadId": {
+        "type": "number",
+        "isOptional": true
+      },
+      "isIncludedInPageViewSample": "boolean",
+      "privateLoad": "boolean",
+      "chatflowId": {
+        "type": "number",
+        "isOptional": true
+      },
+      "path": {
+        "type": "string",
+        "isOptional": true
+      },
+      "promptEnabled": {
+        "type": "string",
+        "isOptional": true
+      },
+      "botEnabled": {
+        "type": "string",
+        "isOptional": true
+      },
+      "state": {
+        "type": "string",
+        "isOptional": true
+      }
+    },
+    "namespace": "conversations-visitor-ui"
+  },
+  "republish-message": {
+    "name": "republish-message",
+    "class": "interaction",
+    "namespace": "conversations-visitor-ui",
+    "properties": {
+      "isIncludedInPageViewSample": "boolean",
+      "privateLoad": "boolean",
+      "chatflowId": {
+        "type": "number",
+        "isOptional": true
+      },
+      "path": {
+        "type": "string",
+        "isOptional": true
+      },
+      "promptEnabled": {
+        "type": "string",
+        "isOptional": true
+      },
+      "botEnabled": {
+        "type": "string",
+        "isOptional": true
+      },
+      "state": {
+        "type": "string",
+        "isOptional": true
+      }
+    }
+  },
+  "widget-interaction": {
+    "name": "widget-interaction",
+    "class": "interaction",
+    "properties": {
+      "action": [
+        "system open widget",
+        "user open widget",
+        "close widget",
+        "view thread list",
+        "create new thread",
+        "view thread",
+        "view email capture",
+        "submit email",
+        "clicked meeting link",
+        "view reply time",
+        "view return time",
+        "view consent to process",
+        "view consent to cookies",
+        "clicked consent to process button",
+        "clicked consent to cookies button"
+      ],
+      "isIncludedInPageViewSample": "boolean",
+      "privateLoad": "boolean",
+      "chatflowId": {
+        "type": "number",
+        "isOptional": true
+      },
+      "path": {
+        "type": "string",
+        "isOptional": true
+      },
+      "promptEnabled": {
+        "type": "string",
+        "isOptional": true
+      },
+      "botEnabled": {
+        "type": "string",
+        "isOptional": true
+      },
+      "state": {
+        "type": "string",
+        "isOptional": true
+      }
+    },
+    "namespace": "conversations-visitor-ui"
+  },
+  "page-title-notification-shown": {
+    "name": "page-title-notification-shown",
+    "class": "view",
+    "namespace": "conversations-visitor-ui"
+  },
+  "click-to-attach-file": {
+    "name": "widget-interaction",
+    "class": "interaction",
+    "properties": {
+      "path": {
+        "type": "string",
+        "isOptional": true
+      },
+      "prompt_enabled": {
+        "type": "string",
+        "isOptional": true
+      },
+      "bot_enabled": {
+        "type": "string",
+        "isOptional": true
+      },
+      "state": {
+        "type": "string",
+        "isOptional": true
+      },
+      "action": [
+        "click to attach file"
+      ]
+    },
+    "namespace": "conversations-visitor-ui"
+  },
+  "failed-to-attach-file": {
+    "name": "widget-interaction",
+    "class": "interaction",
+    "properties": {
+      "path": {
+        "type": "string",
+        "isOptional": true
+      },
+      "prompt_enabled": {
+        "type": "string",
+        "isOptional": true
+      },
+      "bot_enabled": {
+        "type": "string",
+        "isOptional": true
+      },
+      "state": {
+        "type": "string",
+        "isOptional": true
+      },
+      "action": [
+        "failed to attach file"
+      ],
+      "failure-type": [
+        "size limit exceeded",
+        "upload error",
+        "invalid file type"
+      ]
+    },
+    "namespace": "conversations-visitor-ui"
+  },
+  "attached-file": {
+    "name": "widget-interaction",
+    "class": "interaction",
+    "properties": {
+      "path": {
+        "type": "string",
+        "isOptional": true
+      },
+      "prompt_enabled": {
+        "type": "string",
+        "isOptional": true
+      },
+      "bot_enabled": {
+        "type": "string",
+        "isOptional": true
+      },
+      "state": {
+        "type": "string",
+        "isOptional": true
+      },
+      "action": [
+        "attached file"
+      ],
+      "attachment-type": "string",
+      "attachment-size-bytes": "number",
+      "upload-time-ms": "number"
+    },
+    "namespace": "conversations-visitor-ui"
+  },
+  "retry-attachment-upload": {
+    "name": "widget-interaction",
+    "class": "interaction",
+    "properties": {
+      "path": {
+        "type": "string",
+        "isOptional": true
+      },
+      "prompt_enabled": {
+        "type": "string",
+        "isOptional": true
+      },
+      "bot_enabled": {
+        "type": "string",
+        "isOptional": true
+      },
+      "state": {
+        "type": "string",
+        "isOptional": true
+      },
+      "action": [
+        "retry attachment upload"
+      ]
+    },
+    "namespace": "conversations-visitor-ui"
+  },
+  "remove-staged-attachment": {
+    "name": "widget-interaction",
+    "class": "interaction",
+    "properties": {
+      "path": {
+        "type": "string",
+        "isOptional": true
+      },
+      "prompt_enabled": {
+        "type": "string",
+        "isOptional": true
+      },
+      "bot_enabled": {
+        "type": "string",
+        "isOptional": true
+      },
+      "state": {
+        "type": "string",
+        "isOptional": true
+      },
+      "action": [
+        "remove staged attachment"
+      ]
+    },
+    "namespace": "conversations-visitor-ui"
+  }
+};
